@@ -1,26 +1,28 @@
-.navbar{
+.navbar {
     height: 100px;
+  
+    .wrapper {
+      max-width: 1366px;
+      margin: auto;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+        // background-color: red;
 
-    .wrapper{
-        max-width: 1366px;
-        margin: 10vw;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-        background-color: red;
-
-        span{
+        span {
             font-weight: bold;
           }
         
-        .social{
+          .social {
             display: flex;
             gap: 20px;
-
-            img{
-                width: 18px;
-                height: 18px;
+      
+            img {
+              width: 18px;
+              height: 18px;
             }
         }
     }
