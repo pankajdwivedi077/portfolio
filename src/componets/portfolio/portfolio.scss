@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .portfolio{
  position: relative;
     .progress{
@@ -8,6 +10,11 @@
         text-align: center;
         color: orange;
         font-size: 35px;
+
+        @include mobile {
+            padding-top: calc(100vh - 100px);
+           font-size: 24px;
+        }
        
 
        .progressBar{
@@ -36,16 +43,30 @@
          justify-content: center;
          gap: 45px;
 
+         @include mobile {
+           
+            flex-direction: column;
+         }
+
          .imageContainer{
  
             flex: 1;
             height: 50%;    
+
+            @include mobile {
+                width: 100%;
+                max-height: 300px;
+             }
 
         img{
             
             width: 100%;
             height: 100%;
             object-fit: contain;
+
+            @include mobile {
+                object-fit: contain;
+             }
         }
     }
 
@@ -55,13 +76,34 @@
             flex-direction: column;
             gap: 30px;
 
+            @include mobile {
+                transform: none !important;
+                padding: 10px;
+                align-items: center;
+                text-align: center;
+             }
+
             h2{
                 font-size: 40px;
+
+                @include mobile {
+                    font-size: 30px;
+                 }
             }
             p{
                 // color: gray;
                 font-size: 20px;
+
+                @include mobile {
+                    font-size: 16px;
+                 }
             }
+          a{
+            @include mobile {
+                cursor: pointer;
+                z-index: 999;
+             }
+          }
             button{
                 background-color: orange;
                 border: none;
@@ -69,6 +111,11 @@
                 padding: 10px;
                 width: 100px;
                 cursor: pointer;
+
+                @include mobile {
+                    cursor: pointer;
+                    z-index: 999;
+                 }
             }
         }
       }
