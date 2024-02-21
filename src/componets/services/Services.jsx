@@ -50,7 +50,7 @@ const Services = () => {
         >
           <h2>Javascript Developer</h2>
           <p>Creating dynamic web experiences through JavaScript, shaping digital interactions, and crafting intuitive user interfaces.</p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -58,7 +58,7 @@ const Services = () => {
         >
           <h2>Front End Developer</h2>
           <p>Crafting responsive, visually appealing, and interactive user interfaces using React for dynamic web applications. </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -67,7 +67,7 @@ const Services = () => {
           <h2>Full Stack Developer</h2>
           <p>
 Crafting end-to-end digital solutions with MERN stack, driving seamless user experiences and robust backend functionalities. </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
         <motion.div
           className="box"
@@ -75,7 +75,7 @@ Crafting end-to-end digital solutions with MERN stack, driving seamless user exp
         >
           <h2>Software Engineer</h2>
           <p>Designing and implementing scalable software solutions, leveraging various technologies to tackle complex problems and drive innovation.</p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
       </motion.div>
     </motion.div>
